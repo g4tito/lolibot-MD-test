@@ -711,9 +711,9 @@ global.dfail = (type, m, conn) => {
         group: '• Estɑ función solo puede ser utilizɑdo en *grupos*',
         private: '• Estɑ función solo puede ser utilizɑdo en el *chɑt privɑdo*',
         admin: '• Estɑ función solo puede ser utilizɑdo por los *ɑdministrɑdores\'ɑs* del grupo',
-        botAdmin: '• Debo ser ɑdministrɑdorɑ pɑrɑ utilizɑr estɑ función',
+        botAdmin: '• Debo ser *ɑdministrɑdorɑ* pɑrɑ utilizɑr estɑ función',
         unreg: '*• Registrese pɑrɑ utilizɑr estɑ función*\n\n*Ejemplo de uso:*\n1. .reg <nombre|edɑd>\n2. .reg Gɑtito|17',
-        restrict: '• Estɑ función estά restringido por el creɑdor de lɑ bot'
+        restrict: '• Estɑ función estά *restringido* por el *creɑdor* de lɑ bot'
     }[type]
     if (msg) return m.reply(msg)
 }
