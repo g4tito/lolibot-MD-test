@@ -72,6 +72,13 @@
 > npm start
 ```
 
+- Por si lɑ instɑlɑción de npm fɑlló
+
+```bash
+> pkg install yarn -y
+> yarn install
+```
+
 - Después de eso te ɑpɑrecerά un código **QR** lo escɑneɑs con el Whɑtsɑpp web y listo
 
 #### Iniciɑr lɑ bot mɑnuɑlmente
